@@ -1,5 +1,28 @@
-site_name: MkLorum
+site_name: Murray Bennett
+docs_dir: docs
+repo_url: 'https://github.com/MurraySBennett'
+repo_name: 'Github'
+
+theme: 
+  name: material
+  #custom_dir: theme
+  site_favicon: img/faveicon.ico
+  # logo:
+    # icon: face
+  palette:
+    primary: White
+    accent: Deep Orange
+  font:
+    text: Verdana
+    code: Ubuntu
+  icon:
+    logo: material/brain
+  # logo: img/logo.svg
+  features:
+    - instant    
+
+
 nav:
   - Home: index.md
-  - About: about.md
-theme: cinder
+  - Current Projects: current.md
+  - Contact: contact.md
